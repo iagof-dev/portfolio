@@ -1,0 +1,72 @@
+*{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #111111;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    
+}
+.ramb_homeimg{
+    width: 30%;
+    height: 20%;
+    
+}
+hr{
+    border: 1px solid #222222;
+}
+.postagem1{
+    display: block;
+    justify-content: center;
+    line-height: 20px;
+    
+}
+.topics{
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    padding: 50px;
+    margin-bottom: 186px;
+    border-radius: 0px; 
+}
+h2{
+    font-size: 15px;
+    line-height: 2px;
+    color: #d6d6d6;
+}
+p{
+    font-size: 15px;
+    color: #d6d6d6;
+}
+.credits{
+    display: flex;
+    position: sticky;
+    top: 0px;
+    justify-content: center;
+}
+#bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+  }
+.post1img{
+      border-radius: 10px;
+  }
+.header{
+    background-color: #111111;
+    position: sticky;
+    top: 0px;
+  }
+.Download{
+    background-color: #323232;
+    display: block;
+    margin-left: 180px;
+    justify-content: center;
+}
