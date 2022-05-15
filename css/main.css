@@ -1,16 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
 
 html {
   scroll-behavior: smooth;
 }
 
 :root {
+  --fonte-titulopage: "Roboto Condensed";
   --fonte-descprj: "Quicksand";
+  --fonte-navbar-titulo: "Permanent Marker";
   --fonte-tituloprj: "Lato";
-  --fonte-butao: "Kanit";
+  --fonte-butao: "Montserrat";
   --fonte-conteudo: "Poppins";
   --cor-titulo: #f5f5f5;
   --cor-link: #ececec;
@@ -23,7 +28,7 @@ html {
 }
 
 body {
-  background-color: #000;
+  background-color: rgb(5, 6, 8);
   height: 100vh;
   font-family: var(--fonte-conteudo);
 }
@@ -48,8 +53,8 @@ h2 {
   top: 0;
   left: 0;
   right: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   z-index: -1;
 }
 
@@ -138,31 +143,42 @@ a:hover {
     min-width: 196px;
   }
 }
+
 .butoes{
   display: flex;
   align-items: flex-start;
   gap: 0.50rem;
 }
+
 p{
   color: White;
 }
+
 hr{
   border: 1px solid gray;
   border-radius: 3px;
 }
+
 .card{
   margin-left: 25px;
   width: 300px;
   height: 500px;
-  background-color: #171717;
+  background: rgb(16,16,16);
+  background: -moz-linear-gradient(180deg, rgba(16,16,16,1) 0%, rgba(23,23,23,1) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(16,16,16,1) 0%, rgba(23,23,23,1) 100%);
+  background: linear-gradient(180deg, rgba(16,16,16,1) 0%, rgba(23,23,23,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#101010",endColorstr="#171717",GradientType=1);
   border-radius: 15px;
   margin-top: 20px;
   margin-bottom: 150px;
+  box-shadow: #101010 10px 10px 5px;
 }
+
 .card-container{
   display: inline-block;
   justify-content: center;
 }
+
 .prj-foto{
   width: 250px;
   height: 150px;
@@ -170,26 +186,32 @@ hr{
   justify-content: center;
   border-radius: 10px;
 }
+
 .prj-texto1{
   font-size: 10px;
   display: inline-block;
   justify-content: center;
 }
+
 .pjr-img{
   display: flex;
   justify-content: center;
 }
+
 .prj-desc{
   font-size: 10px;
 }
+
 .prj-itens{
   display: flex;
   ;
   justify-content: center;
 }
+
 .projetos{
   margin-top: 10px;
 }
+
 .prj-titulo{
   margin-top: 25px;
   font-family: var(--fonte-tituloprj);
@@ -197,8 +219,8 @@ hr{
   text-transform: uppercase;
   text-align: center;
   text-shadow: 0 0 0px;
-
 }
+
 .prj-desc{
   color: #ffffff;
   margin-top: 15px;
@@ -206,15 +228,18 @@ hr{
   font-size: 15px;
   font-family: var(--fonte-descprj);
 }
+
 .about-info{
   display: flex;
   justify-content: center;
 }
+
 .about-img{
   margin-top: 50px;
   width: 33%;
   border-radius: 15px;
 }
+
 .about-texto1{
   display: flex;
   justify-content: center;
@@ -223,6 +248,7 @@ hr{
   margin-top: -250px;
   margin-left: 310px;
 }
+
 .about-texto2{
   text-transform: lowercase;
   display: flex;
@@ -233,6 +259,7 @@ hr{
   color: #a2a6a5;
   margin-left: 300px;
 }
+
 .about-texto3{
   text-shadow: 0 0 0px rgba(219, 219, 219, 0.35);
   display: flex;
@@ -242,9 +269,68 @@ hr{
   color: #FFFFFF;
   margin-left: 300px;
 }
+
 .ytvideo{
   margin-top: 200px;
   display: flex;
   justify-content: center;
   margin-bottom: 150px;
+}
+
+iframe{
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  box-shadow: #1f1f1f 1px 1px 10px;
+}
+
+.page-titulos{
+  justify-content: center;
+  font-size: 30px;
+  margin-top: 25px;
+  color: #c5c5c5;
+  text-decoration: underline;
+  font-family: var(--fonte-titulopage);
+}
+
+.navbar{
+  top: 0;
+  margin: auto;
+  padding: 10px;
+  display: none; /* flex */
+  position: sticky;
+  background-color: rgba(16,16,16,1);
+}
+
+.botaonav{
+  display: inline-flex;
+  padding: 5px;
+  gap: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  justify-content: end;
+  margin-left: auto;
+  color: #FFFFFF;
+  text-align: left;
+  justify-content: right;
+}
+.botaonav :hover{
+  color: #b0aeae;
+  text-transform: uppercase;
+}
+
+.navbar-h1{
+  top: 15px;
+  font-family: var(--fonte-navbar-titulo);
+  margin-left: 15px;
+  display: inline-flex;
+  text-transform: uppercase;
+  font-size: 150%;
+  text-align: left;
+  justify-content: left;
+}
+.navbar-icon{
+  filter: invert(100%) sepia(1%) saturate(1873%) hue-rotate(180deg)
+    brightness(112%) contrast(85%);
+  width: 25px;
+  margin-right: 5px;
 }
