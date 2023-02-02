@@ -1,39 +1,32 @@
 <!DOCTYPE html>
-<html lang="”pt-br”">
+<html lang="pt-br">
   <head>
     <meta charset="utf-8" />
     <title>N3rdyDzn</title>
-    <link rel="SHORTCUT ICON" href="img/favicon.ico" type="image/x-icon" />
-    <link rel="ICON" href="img/favicon.ico" type="image/ico" />
-    <meta name="description" content="Meu Site com informações sobre mim e meus projetos" />
+    <link rel="ICON" href="./Assets/img/favicon.ico" type="image/ico" />
+    <meta name="description" content="Portfolio de N3rdyDzn" />
     <meta name="author" content="N3rdyDzn" />
     <meta name="keywords" content="N3rdyDzn, N3rdy, N3rdy Designer, N3rdyDesigner, N3rdyDzn.xyz, N3rdyDzn.Software"/>
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
   </head>
 
   <body>
     <!--Background LEGAL BUNITO-->
     <div id="bg"></div>
 
-    <div class="navbar">
-      <!--Teste Navigation bar-->
-        <h1 class="navbar-h1">MEU SITE BONITO</h1>
+    <!--<div class="navbar">
+      Teste Navigation bar-->
+        <!-- <h1 class="navbar-h1">MEU SITE BONITO</h1>
         <div class="botaonav">
-          <a href="#home"><img class="navbar-icon" src="./img/house-solid.svg">Início</a>
-          <a href="#projects"><img class="navbar-icon" src="./img/diagram-project-solid.svg"></imgclass>Projetos</a>
+          <a href="#home"><img class="navbar-icon" src="./Assets//img/house-solid.svg">Início</a>
+          <a href="#projects"><img class="navbar-icon" src="./Assets/img/diagram-project-solid.svg"></imgclass>Projetos</a>
           <a href="#about">Sobre</a>
-        </div>
-    </div>
+        </div> 
+    </div>-->
     
     <!--Fotinha-->
     <section id="home" class="container-center">
-      <img
-        src="img/icon.png"
-        alt="Eu mesmo"
-        style="width: 250px; height: 250px"
-        class="main__img"
-      />
-      <h1>N3rdyDzn</h1><br class="brinv">
+      <img src="./Assets/img/icon.png" style="width: 250px; height: 250px" class="main__img"/>
+      <h1 id="m_title" class="m_title"></h1><br class="brinv">
       
       
       <!--BUTÃO-->
@@ -45,12 +38,13 @@
         <button class="botaodaora" role="button"><span class="text">Sobre</span></button><br>
         </a>
       </div>
+      <!--======-->
 
       <!--Icones-->
       <div class="row">
-        <img class="icon" src="./img/github-brands.svg" /><a href="https://github.com/n3rdydzn/">Github</a><br>
+        <img class="icon" src="./Assets/img/github-brands.svg" /><a href="https://github.com/n3rdydzn/">Github</a><br>
         <a>|</a><br>
-        <img class="icon" src="./img/steam-brands.svg" />
+        <img class="icon" src="./Assets/img/steam-brands.svg" />
         <a href="https://steamcommunity.com/id/n3rdydesigner">Steam</a>
       </div>
 
@@ -67,7 +61,7 @@
       <div class="card-container">
         <div class="card">
           <div class="pjr-img">
-            <img src="/img/NG-Project.jpg" class="prj-foto">
+            <img src="./Assets/img/NG-Project.jpg" class="prj-foto">
           </div>
           
           <div class="prj-texto1">
@@ -78,9 +72,10 @@
         </div>
       </div>
       <div class="card-container">
+        
         <div class="card">
           <div class="pjr-img">
-            <img src="/img/prj-hazardit.gif" class="prj-foto">
+            <img src="./Assets/img/prj-hazardit.gif" class="prj-foto">
           </div>
           
           <div >
@@ -90,6 +85,17 @@
           
         </div>
       </div>
+
+      <!-- <div class="container text-center">
+        <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+          <div class="col">
+            
+          </div>
+          <div class="col">
+            
+          </div>
+        </div>
+      </div>  -->
     </section>
   
   
@@ -103,9 +109,9 @@
 
     <section class="about-info">
       <div class="about-pagina1">
-        <img src="img/icon.png" class="about-img">
+        <img src="./Assets/img/icon.png" class="about-img">
         <h1 class="about-texto1">N3rdy Designer</h1>
-        <h1 class="about-texto2">admin@n3rdydzn.xyz</h1>
+        <h1 class="about-texto2">admin@n3rdydzn.software</h1>
         <h1 class="about-texto3">Programador, Digital Designer, Ex-Animador e VFX Artist</h1>
       </div>
       <br>
@@ -120,8 +126,20 @@
   <hr>
   </section>
 
+      <!--CSS-->
+      <link rel="stylesheet" type="text/css" href="./Assets/css/main.css" />
+      <!-- <link rel="stylesheet" href="./Assets/css/bootstrap.min.css"> -->
+
       <!--JavaScript-->
-      <script type="text/javascript" src="js/particles.min.js"></script>
-      <script type="text/javascript" src="js/custom.js"></script>
+      <script src="https://kit.fontawesome.com/3fc58490c0.js" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+      <script type="text/javascript" src="./Assets/js/main.js"></script>
+      <script type="text/javascript" src="./Assets/js/particles.min.js"></script>
+      <script type="text/javascript" src="./Assets/js/custom.js"></script>
+
+      <!-- <script src="./Assets/js/bootstrap.bundle.min.js"></script> -->
+
+
+
   </body>
 </html>

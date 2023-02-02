@@ -10,6 +10,105 @@ html {
   scroll-behavior: smooth;
 }
 
+
+.novobutao {
+  width: 130px;
+  height: 40px;
+  padding: 10px 25px;
+  border: 2px solid #000;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+.btn-3 {
+  line-height: 39px;
+  padding: 0;
+}
+.btn-3:hover{
+  background: transparent;
+  color: #000;
+}
+.btn-3 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-3:before,
+.btn-3:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  background: #000;
+  transition: all 0.3s ease;
+}
+.btn-3:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-3:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-3:hover:before {
+  height: 100%;
+}
+.btn-3:hover:after {
+  width: 100%;
+}
+.btn-3 span:before,
+.btn-3 span:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0;
+  background: #000;
+  transition: all 0.3s ease;
+}
+.btn-3 span:before {
+  width: 2px;
+  height: 0%;
+}
+.btn-3 span:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-3 span:hover:before {
+  height: 100%;
+}
+.btn-3 span:hover:after {
+  width: 100%;
+}
+
+
+
+
+
+::-webkit-scrollbar
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+
 :root {
   --fonte-titulopage: "Roboto Condensed";
   --fonte-descprj: "Quicksand";
@@ -160,18 +259,14 @@ hr{
 }
 
 .card{
+  background-color: rgb(40, 40, 40);
   margin-left: 25px;
   width: 300px;
   height: 500px;
-  background: rgb(16,16,16);
-  background: -moz-linear-gradient(180deg, rgba(16,16,16,1) 0%, rgba(23,23,23,1) 100%);
-  background: -webkit-linear-gradient(180deg, rgba(16,16,16,1) 0%, rgba(23,23,23,1) 100%);
-  background: linear-gradient(180deg, rgba(16,16,16,1) 0%, rgba(23,23,23,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#101010",endColorstr="#171717",GradientType=1);
   border-radius: 15px;
   margin-top: 20px;
   margin-bottom: 150px;
-  box-shadow: #101010 10px 10px 5px;
+  box-shadow: rgb(15, 15, 15) 10px 10px 5px;
 }
 
 .card-container{
@@ -221,6 +316,8 @@ hr{
   text-align: center;
   text-shadow: 0 0 0px;
 }
+
+
 
 .prj-desc{
   color: #ffffff;
