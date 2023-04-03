@@ -1,148 +1,190 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8" />
-    <title>N3rdyDzn</title>
-    <link rel="shortcut icon" href="./Assets/img/faviocon_transparent.ico" type="image/x-icon">
 
-    <meta name="theme-color" content="#000ea6">
-    <meta name="description" content="N3rdyDzn | Portfolio" />
-    <meta name="author" content="N3rdyDzn" />
-    <meta name="keywords" content="N3rdyDzn, N3rdy, N3rdy Designer, N3rdyDesigner, N3rdyDzn.xyz, N3rdyDzn.Software"/>
-    <meta property="og:image" content="./Assets/img/icon.png" />
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <title>Iago Fragnan | Portfolio</title>
+  <link rel="shortcut icon" href="./Assets/img/favicon.ico" type="image/x-icon">
+  <meta name="theme-color" content="#000ea6">
+  <meta name="description" content="Iago Fragnan | Portfolio" />
+  <meta name="author" content="Iago Fragnan" />
+  <meta name="keywords"
+    content="Iago F, IagoF., Iago F., Iago Fragnan, N3rdyDzn, N3rdy, N3rdy Designer, N3rdyDesigner, N3rdyDzn.xyz, N3rdyDzn.Software, iagof.dev, iagofragnan.dev" />
+  <meta property="og:image" content="./Assets/img/icon.png" />
+</head>
 
-  <body>
-    <!--Background LEGAL BUNITO-->
-    <div id="bg"></div>
 
-    <!--<div class="navbar">
-      Teste Navigation bar-->
-        <!-- <h1 class="navbar-h1">MEU SITE BONITO</h1>
-        <div class="botaonav">
-          <a href="#home"><img class="navbar-icon" src="./Assets//img/house-solid.svg">Início</a>
-          <a href="#projects"><img class="navbar-icon" src="./Assets/img/diagram-project-solid.svg"></imgclass>Projetos</a>
-          <a href="#about">Sobre</a>
-        </div> 
-    </div>-->
-    
-    <!--Fotinha-->
-    <section id="home" class="container-center">
-      <img src="./Assets/img/icon.png" style="width: 250px; height: 250px" class="main__img"/>
-      <h1 id="m_title" class="m_title"></h1><br class="brinv">
-      
-      
-      <!--BUTÃO-->
-      <div class="butoes">
+
+<!--CSS-->
+<link rel="stylesheet" type="text/css" href="./Assets/css/main.css" />
+
+
+
+<body onload="background();">
+  <!--Background LEGAL BUNITO-->
+  <div id="bg"></div>
+
+  <!--Fotinha-->
+  <section id="home" class="container-center">
+    <img id="imgblock" src="./Assets/img/icon.webp" style="width: 250px; height: 250px" class="anim-hidden main__img" />
+    <h1 id="m_title" class="anim-hidden m_title ">senha: C3z@re$3</h1><br class="brinv">
+
+
+    <!--BUTÃO-->
+    <div class="anim-hidden btns">
       <a href="#projects">
-      <button class="botaodaora" role="button"><span class="text">Projetos</span></button>
+        <button class="btn-new anim-bt-hidden-left" role="button"><span class="text">Projetos</span></button>
       </a>
       <a href="#about">
-        <button class="botaodaora" role="button"><span class="text">Sobre</span></button><br>
-        </a>
-      </div>
-      <!--======-->
-
-      <!--Icones-->
-      <div class="row">
-        <img class="icon" src="./Assets/img/github-brands.svg" /><a href="https://github.com/iagof-dev/">Github</a><br>
-        <a>|</a><br>
-        <img class="icon" src="./Assets/img/steam-brands.svg" />
-        <a href="https://steamcommunity.com/id/n3rdydzn">Steam</a>
-      </div>
-
-
-    </section>
-
-
-    <!--Projetos-->
-    <br><section class="projetos" id="projects">
-      <hr>
-      <br><h1 class="page-titulos">Projetos</h1><br>
-      <section class="prj-itens">
-
-      <div class="card-container">
-        <div class="card">
-          <div class="pjr-img">
-            <img src="./Assets/img/NG-Project.jpg" class="prj-foto">
-          </div>
-          
-          <div class="prj-texto1">
-            <h2 class="prj-titulo">N3rdy Generator</h2>
-            <p class="prj-desc">N3rdyGenerator Foi um projeto iniciado em 07/2019, com intuito de gerar contas de Minecraft, Spotify, Steam e até Discord Nitro. Projeto foi Encerrado no final de 2019 e teve o projeto refeito em 2020 mas sem sucesso de concluir</p>
-          </div>
-          
-        </div>
-      </div>
-      <div class="card-container">
-        
-        <div class="card">
-          <div class="pjr-img">
-            <img src="./Assets/img/prj-hazardit.gif" class="prj-foto">
-          </div>
-          
-          <div >
-            <h2 class="prj-titulo">Hazardit</h2>
-            <p class="prj-desc">Projeto Destinado a melhorar performance do Computador e Internet de jogadores de PvP (Modo de jogo online do Minecraft). Projeto foi iniciado no começo de 2018 e não há indícios do projeto, videos ou imagens.</p>
-          </div>
-          
-        </div>
-      </div>
-
-      <!-- <div class="container text-center">
-        <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
-          <div class="col">
-            
-          </div>
-          <div class="col">
-            
-          </div>
-        </div>
-      </div>  -->
-    </section>
-  
-  
-    </section>
-
-    <!--Sobre MIM-->
-  <section class="aboutme" id="about">
-    <hr>
-    <h1 class="page-titulos">Sobre</h1>
-
-
-    <section class="about-info">
-      <div class="about-pagina1">
-        <img src="./Assets/img/icon.png" class="about-img">
-        <h1 class="about-texto1">N3rdy Designer</h1>
-        <h1 class="about-texto2">admin@n3rdydzn.software</h1>
-        <h1 class="about-texto3">Programador, Digital Designer, Ex-Animador e VFX Artist</h1>
-      </div>
-      <br>
-    </section>
-    <div class="ytvideo">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/ZHs1m5_B-Lo" title="Minha Intro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/PHeNJcWxdDg" title="Minha Intro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <button class="btn-new anim-bt-hidden-right" role="button"><span class="text">Sobre</span></button><br>
+      </a>
     </div>
-    
+    <!--======-->
 
-    
-  <hr>
+    <!--Icones-->
+    <div class="anim-hidden row">
+      <img id="imgblock"  class="icon" src="./Assets/img/github-brands.svg" /><a href="https://github.com/iagof-dev/">Github</a><br>
+      <a>|</a><br>
+      <img id="imgblock" class="icon" src="./Assets/img/steam-brands.svg" />
+      <a href="https://steamcommunity.com/id/n3rdydzn">Steam</a>
+    </div>
   </section>
 
-      <!--CSS-->
-      <link rel="stylesheet" type="text/css" href="./Assets/css/main.css" />
-      <!-- <link rel="stylesheet" href="./Assets/css/bootstrap.min.css"> -->
+  <!--Projetos-->
+  <section class="projetos" id="projects">
+    <hr>
+    <h1 class="page-titulos"><i class="fa-solid fa-diagram-project" style="padding-right: 10px;"></i>Projetos</h1><br>
+    <section class="prj-itens">
 
-      <!--JavaScript-->
-      <script src="https://kit.fontawesome.com/3fc58490c0.js" crossorigin="anonymous"></script>
-      <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-      <script type="text/javascript" src="./Assets/js/main.js"></script>
-      <script type="text/javascript" src="./Assets/js/particles.min.js"></script>
-      <script type="text/javascript" src="./Assets/js/custom.js"></script>
+      <div class="anim-hidden card-container prj-grid1">
+        <div class="card">
+          <div class="pjr-img">
+            <img id="imgblock" src="./Assets/img/NG-Project.webp" class="prj-foto">
+          </div>
+          <div class="prj-texto1">
+            <h2 class="prj-titulo">N3rdy Generator</h2>
+            <p class="prj-desc">N3rdyGenerator Foi um projeto iniciado em 07/2019, com intuito de gerar contas de
+              Minecraft, Spotify, Steam e até Discord Nitro. Projeto foi Encerrado no final de 2019 e teve o projeto
+              refeito em 2020 mas sem sucesso de concluir.</p>
+          </div>
+        </div>
+      </div>
 
-      <!-- <script src="./Assets/js/bootstrap.bundle.min.js"></script> -->
+      <div class="anim-hidden card-container prj-grid2">
+        <div class="card">
+          <div class="pjr-img">
+            <img id="imgblock" src="./Assets/img/prj-hazardit.gif" class="prj-foto">
+          </div>
+          <div>
+            <h2 class="prj-titulo">Hazardit</h2>
+            <p class="prj-desc">Projeto Destinado a melhorar performance do Computador e Internet de jogadores de PvP
+              (Modo de jogo online do Minecraft). Projeto foi iniciado no começo de 2018 e não há indícios do projeto,
+              videos ou imagens.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="anim-hidden card-container prj-grid3">
+        <div class="card">
+          <div class="pjr-img">
+            <img id="imgblock" src="./Assets/img/prj-unibank.gif" class="prj-foto">
+          </div>
+          <div>
+            <h2 class="prj-titulo">UniBank</h2>
+            <p class="prj-desc">Unibank foi um desafio de uma prova de projeto escolar desenvolver um banco digital
+              inovador e moderno, que atenda às necessidades financeiras dos jovens de forma segura e eficiente. Com
+              objetivo de criar uma marca e identidade visual.</p>
+          </div>
+        </div>
+      </div>
 
 
+    </section>
+  </section>
 
-  </body>
+  <!--Sobre MIM-->
+  <section class="aboutme" id="about">
+    <hr>
+    <div class="lang-prog">
+
+
+      <div class="about-gridtitle">
+        <h1 class="page-titulos" style="padding-bottom: 150px !important;"><i class="fa-solid fa-circle-info" style="padding-right: 10px;"></i>Sobre</h1>
+      </div>
+
+      <div class="about-info1">
+        <img id="imgblock ff" src="./Assets/img/icon.webp" class="anim-bt-hidden-left about-img">
+      </div>
+
+      <div class="anim-bt-hidden-right about-info2">
+        <h1 class="about-texto1">Iago Fragnan</h1>
+        <h1 class="about-texto2" id="tooltip">iagofragnam@gmail.com
+          <span id="tooltip-txt" class="tooltiptext">📋 Clique para Copiar!</span>
+        <h1 class="about-texto3">Programador, Digital Designer, Animator & VFX Artist</h1>
+        </h1>
+      </div>
+      
+    </div>
+    <div class="langs">
+
+        <div class="anim-bt-hidden-left about-frontend">
+        <h2 class="langfont">Front-end</h2>
+        <div id="imgblock" class="langitem">
+          <img id="imgblock" class="langicon" src="./Assets/img/langs-img/html.svg" alt="">
+          <img id="imgblock" class="langicon" src="./Assets/img/langs-img/css.svg" alt="">
+        </div>
+      </div>
+
+      <div class="anim-hidden about-backend">
+        <h2 class="langfont">Backend</h2>
+        <div id="imgblock" class="backendcontainer">
+          <div class="langitem">
+            <img id="imgblock" class="langicon" src="./Assets/img/langs-img/Csharp.svg">
+            <img id="imgblock" class="langicon" src="./Assets/img/langs-img/mysql.svg">
+            <img id="imgblock" class="langicon" src="./Assets/img/langs-img/js.svg">
+            <img id="imgblock" class="langicon" src="./Assets/img/langs-img/xamarin.webp">
+            <img id="imgblock" class="langicon" src="./Assets/img/langs-img/python.svg">
+            <img id="imgblock" class="langicon" src="./Assets/img/langs-img/php.svg">
+            <img id="imgblock" class="langicon" src="./Assets/img/langs-img/cpplus.svg">
+          </div>
+        </div>
+      </div>
+
+      <div class="anim-bt-hidden-right about-utils">
+        <h2 class="langfont">Utilities</h2>
+        <div class="langitem">
+          <img id="imgblock" class="langicon" src="./Assets/img/langs-img/azure.svg" alt="">
+          <img id="imgblock" class="langicon" src="./Assets/img/langs-img/git.svg" alt="">
+          <img id="imgblock" class="langicon" src="./Assets/img/langs-img/gnulinux.svg" alt="">
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+  <hr>
+
+  <!-- <section class="about-info">
+    <div class="about-pagina1">
+      <img src="./Assets/img/icon.png" class="about-img">
+      <h1 class="anim-hidden about-texto2" id="tooltip">admin@n3rdydzn.software
+        <span id="tooltip-txt" class="tooltiptext">📋 Clique para Copiar!</span>
+      </h1>
+
+    </div>
+
+    </div>
+    <br>
+  </section> -->
+</body>
+
+  <!--JavaScript-->
+  <script defer src="https://kit.fontawesome.com/3fc58490c0.js" crossorigin="anonymous"></script>
+  <script defer src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script defer src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  <script defer type="text/javascript" src="./Assets/js/main.js"></script>
+  <script defer type="text/javascript" src="./Assets/js/particles.min.js"></script>
+  <script defer type="text/javascript" src="./Assets/js/scrollbar.js"></script>
+
+
 </html>

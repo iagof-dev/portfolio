@@ -1,0 +1,43 @@
+:root {
+    --cor-fundo: #c5c5c5;
+    --cor-titulo: #0a0a0a;
+    --cor-titulo2: #fafafa;
+    --cor-link: #131313;
+    --lang-color-box: #0a0a0a;
+    --cor-bg-prj: #e8e8e8;
+    --cor-bg-card: #e0e0e0;
+    --cor-shdw-h1h2: #2424a6;
+}
+
+.light #bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: var(--cor-fundo) !important;
+}
+
+.light body {
+    background-color: var(--cor-fundo) !important;
+    height: 100vh;
+    font-family: var(--fonte-conteudo) !important;
+}
+
+.light h1 {
+    color: var(--cor-titulo);
+    font-size: 70px;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 0 0 10px var(--cor-shdw-h1h2);
+}
+
+.light h2 {
+    color: var(--cor-titulo);
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 0 0 10px var(--cor-shdw-h1h2);
+}
