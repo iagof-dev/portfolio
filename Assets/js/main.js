@@ -1,7 +1,7 @@
 
 var texto = document.getElementById('m_title');
 var typewriter = new Typewriter(texto, {
-    strings: ['IAGO F.', 'N3RDY', 'Iago Fragnan', 'N3RDYDZN'],
+    strings: ['IAGO F.', 'N3RDY', 'Iago Fragnan', 'N3RDYDEV', 'IAGO F.'],
     autoStart: true,
     loop: true,
     pauseFor: 2000,
