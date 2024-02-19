@@ -17,7 +17,8 @@ function background() {
         {
             "hideOverflow": false,
             "timing": {
-              "easing": "linear"
+              "easing": "linear",
+              "iterations": 1
             },
             "glitchTimeSpan": {
               "start": 0.51,
