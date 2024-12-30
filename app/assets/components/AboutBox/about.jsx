@@ -34,7 +34,7 @@ export default function AboutBox() {
                 <div className="bg-[#202020] drop-shadow-lg border border-[#505050] border-opacity-50 rounded-lg p-2 w-[19rem] h-fit">
 
                     <div className="py-2 w-1/2 mt-12 mb-2 mx-auto rounded-full justify-items-center bg-[#191919]">
-                        <Image className="rounded-full select-none drop-shadow-lg shadow-lg pointer-events-none" src={PFP} alt="Wrench" width={128} height={128} />
+                        <Image className="rounded-full select-none drop-shadow-lg shadow-lg pointer-events-none mx-auto" src={PFP} alt="My Profile Picture" width={128} height={128} />
                     </div>
 
                     <div className="leading-3">
