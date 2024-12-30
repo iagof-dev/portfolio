@@ -26,9 +26,6 @@ export default function ContentBox(p) {
         case '3':
             content = <ProjectsContent />;
             break;
-        case '3':
-            content = <SkillsContent />;
-            break;
     }
 
 
