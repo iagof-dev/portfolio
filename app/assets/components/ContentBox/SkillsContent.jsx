@@ -33,7 +33,7 @@ export default function SkillsContent() {
                 <SkillProgress icon={MySqlIcon} language="MySQL / MariaDB" value="89" />
                 <SkillProgress icon={JavaIcon} language="Java" value="65" />
                 <SkillProgress icon={ReactIcon} language="React" value="12" />
-                <SkillProgress icon={AwsIcon} language="AWS" value="10" />
+                <SkillProgress icon={AwsIcon} language="Amazon Web Services" value="10" />
                 <SkillProgress icon={GitIcon} language="Git" value="60" />
                 <SkillProgress icon={CppIcon} language="C++" value="6" />
                 <SkillProgress icon={TailwindIcon} language="Tailwind" value="55" />
