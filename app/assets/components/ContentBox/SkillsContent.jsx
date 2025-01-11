@@ -15,6 +15,8 @@ import GitIcon from '/public/assets/svg/languages/git.svg';
 import CppIcon from '/public/assets/svg/languages/cpp.svg';
 import TailwindIcon from '/public/assets/svg/languages/tailwind.svg';
 import JavaScriptIcon from '/public/assets/svg/languages/javascript2.svg';
+import LinuxIcon from '/public/assets/svg/languages/linux.svg';
+import WindowsIcon from '/public/assets/svg/languages/windows.svg';
 
 
 export default function SkillsContent() {
@@ -38,6 +40,8 @@ export default function SkillsContent() {
                 <SkillProgress icon={CppIcon} language="C++" value="6" />
                 <SkillProgress icon={TailwindIcon} language="Tailwind" value="55" />
                 <SkillProgress icon={JavaScriptIcon} language="JavaScript" value="72" />
+                <SkillProgress icon={WindowsIcon} language="Windows" value="98" />
+                <SkillProgress icon={LinuxIcon} language="Linux" value="90" />
               
             </div>
         </div>
