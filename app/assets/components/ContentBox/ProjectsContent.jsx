@@ -17,7 +17,7 @@ import BonetoERamalho from '/public/assets/imgs/projects/bonetoeramalho.webp';
 import UnibankImage from '/public/assets/imgs/projects/prj-unibank.gif';
 import TccSGDBImage from '/public/assets/imgs/projects/tcc-sistema-biblioteca.webp';
 import ByteStoreImage from '/public/assets/imgs/projects/ByteStore.webp';
-import NotFoundImage from '/public/assets/imgs/projects/notfound.webp';
+import N3rdyTesouroImage from '/public/assets/imgs/projects/n3rdytesouro.gif';
 
 
 
@@ -40,7 +40,7 @@ export default function ProjectsContent() {
                                     <CardCarousel imageUrl={UnibankImage} title="UniBank" description="Unibank foi um desafio de uma prova de projeto escolar desenvolver um banco digital inovador e moderno, que atenda às necessidades financeiras dos jovens de forma segura e eficiente. Com objetivo de criar uma marca e identidade visual." onPrimaryClick="https://github.com/iagof-dev/unibank" onSecondaryClick="" />
                                     <CardCarousel imageUrl={ByteStoreImage} title="ByteStore" description="Projeto de um E-COMMERCE feito em PHP." onPrimaryClick="https://github.com/iagof-dev/bytestore" onSecondaryClick="" />
                                     <CardCarousel imageUrl={TccSGDBImage} title="Sistema de Gerenciamento da Biblioteca" description="Trabalho de Conclusão de Curso da Etec Joaquim Ferreira do Amaral" onPrimaryClick="https://github.com/iagof-dev/tcc" onSecondaryClick="" />
-                                    <CardCarousel imageUrl={NotFoundImage} title="N3rdyTesouro" description="Projeto escolar de um minijogo dentro do Minecraft utilizando Arduino, PHP e Java." onPrimaryClick="https://github.com/iagof-dev/n3rdytesouro_expotec" onSecondaryClick="" />
+                                    <CardCarousel imageUrl={N3rdyTesouroImage} title="N3rdyTesouro" description="Projeto escolar de um minijogo dentro do Minecraft utilizando Arduino, PHP e Java." onPrimaryClick="https://github.com/iagof-dev/n3rdytesouro_expotec" onSecondaryClick="" />
                                     <CardCarousel imageUrl={BonetoERamalho} title="Boneto e Ramalho Imóbiliaria" description="Site imobiliário realizado de forma freelance, utilizando PHP e jQuery. O site conta com funcionalidades completas, incluindo Google SEO, um painel administrativo e uma interface intuitiva para usuários e listagem de imóveis." onPrimaryClick="https://bonetoeramalho.com.br/" onSecondaryClick="" />
                                     </div>
                             </CarouselItem>
